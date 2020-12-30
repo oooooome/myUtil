@@ -45,7 +45,7 @@ message(SWSCALE_LIBRARY=${SWSCALE_LIBRARY})
 add_executable (myUtil 
 		"ffmpeg/writeFile.hpp"
 		main.cpp
-)
+ "ffmpeg/convert.hpp")
 
 
 target_include_directories(${PROJECT_NAME}
